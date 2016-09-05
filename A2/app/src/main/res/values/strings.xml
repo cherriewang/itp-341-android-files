@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">A2.Cherrie.Wang</string>
+    <string name="question">Would you like coffee or tea?</string>
+    <string name="answer1">Coffee</string>
+    <string name="answer2">Tea</string>
+    <string name="toast_coffee">You ordered a divine coffee! </string>
+    <string name="toast_tea">You ordered a delicious tea! </string>
+
+
+</resources>
