@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Favorite Foods</string>
+    <string name="chinese">Chinese foods</string>
+    <string name="american">American foods</string>
+    <string name="indian">Indian foods</string>
+    <string name="italian">Italian foods</string>
+    <string name="middle_east">Middle East foods</string>
+    <string name="port">Portuguese foods</string>
+    <string name="order">You have ordered: </string>
+
+</resources>
