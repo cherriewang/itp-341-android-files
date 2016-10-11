@@ -21,3 +21,9 @@ Simple app that displays different cuisines via LinearLayout. Shows a Toast when
 • Calculates the appropriate information <br />
 • Use string resources to display in UI widgets <br />
 • Use UI components (SeekBar, Spinner, EditText)
+
+## Assignment 6: Universal App
+• Create and utilize Fragments from scratch <br />
+• Adapt existing Activities into Fragments<br />
+• Dynamically change Fragments to react to user's needs<br />
+• Unit and currency conversion implementation<br />
