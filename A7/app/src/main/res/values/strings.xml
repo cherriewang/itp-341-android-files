@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">A7 Cherrie Wang</string>
+    <string name="solve">Solve the Puzzle</string>
+    <string name="set_changes">Set Changes</string>
+    <string name="clue1">I\'m feeling blue.</string>
+    <string name="clue2">I want to be big</string>
+    <string name="clue3">You can call me \"AI\"</string>
+    <string name="clue4">I am located in the West.</string>
+    <string name="win">You WIN!</string>
+    <string name="lose">Try Again.</string>
+    <string name="name">Name: </string>
+    <string name="press_enter">(Please press enter before clicking the button)</string>
+</resources>

@@ -27,3 +27,10 @@ Simple app that displays different cuisines via LinearLayout. Shows a Toast when
 • Adapt existing Activities into Fragments<br />
 • Dynamically change Fragments to react to user's needs<br />
 • Unit and currency conversion implementation<br />
+
+## Assignment 7: Door Puzzle
+• Use Intents to transition between Activities<br />
+• Pass data to and from Activities with Intents<br />
+• The user has to solve three puzzles, in order, using clues from the first Activity.
+When the puzzle is solved correctly, the clue color changes. All three clues
+must change color to win.<br />
