@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="from">
+        <item>Los Angeles</item>
+        <item>Maryland</item>
+        <item>Chicago</item>
+    </string-array>
+
+    <string-array name="to">
+        <item>Los Angeles</item>
+        <item>Maryland</item>
+        <item>Chicago</item>
+    </string-array>
+
+</resources>

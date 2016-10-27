@@ -34,3 +34,11 @@ Simple app that displays different cuisines via LinearLayout. Shows a Toast when
 • The user has to solve three puzzles, in order, using clues from the first Activity.
 When the puzzle is solved correctly, the clue color changes. All three clues
 must change color to win.<br />
+
+## Assignment 8: MVC
+• Create a UI that allows the user to specify a train trip they want<br />
+• Use MVC techniques to separate layers of program functionality<br />
+• Use an explicit intent to launch a new activity that displays the order to the user<br />
+• Allow the user to either purchase or edit the order<br />
+• On original activity, update display based on their choice to confirm or cancel order<br />
+• Allow the user to enter and edit Card information on multiple activities<br />

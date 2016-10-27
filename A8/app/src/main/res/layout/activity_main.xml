@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="itp341.wang.cherrie.a8.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_sold"
+                android:id="@+id/textView1"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/textViewTickets"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_amount"
+                android:id="@+id/textViewStart"
+                android:layout_weight="1"/>
+            <Spinner
+                android:id = "@+id/spinnerFrom"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:entries = "@array/from"
+                android:padding="@dimen/activity_vertical_margin"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/end_amount"
+                android:id="@+id/textViewEnd"
+                android:layout_weight="1"/>
+            <Spinner
+                android:id = "@+id/spinnerTo"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:entries = "@array/to"
+                android:padding="@dimen/activity_vertical_margin"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/type"
+                android:layout_gravity="top|start"
+                android:layout_weight="1"
+                android:id="@+id/textViewMoneyFrom" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/priority"
+                android:layout_weight="1"
+                android:id="@+id/textViewMoneyTo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:id="@+id/radioFrom">
+                <RadioButton
+                    android:text="@string/one_way"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButtonOne"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:text="@string/round_trip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButtonRound"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:text="@string/day_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButtonDay"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:id="@+id/radioTo">
+
+                <RadioButton
+                    android:text="No"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButtonNo"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:text="Disabled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButtonDis"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:text="Pregnant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButtonPreg"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:text="Elderly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButtonEld"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:text="Veteran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButtonVet"
+                    android:layout_weight="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:text="@string/use_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonUseCard" />
+        <Button
+            android:text="@string/verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonVerify" />
+    </LinearLayout>
+</RelativeLayout>
