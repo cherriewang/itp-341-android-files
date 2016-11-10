@@ -42,3 +42,10 @@ must change color to win.<br />
 • Allow the user to either purchase or edit the order<br />
 • On original activity, update display based on their choice to confirm or cancel order<br />
 • Allow the user to enter and edit Card information on multiple activities<br />
+
+## Assignment 8: Movie Listing
+• Create a UI that dynamically displays movie showings in a list<br />
+• Use MVC techniques to separate layers of program functionality<br />
+• Use an explicit intent to launch a new activity that displays movie details<br />
+• Allow the user to add new movies and add comments to existing ones<br />
+• Use CardView as the layout for list items and follows Material Design standards<br />
